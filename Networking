@@ -1,1 +1,57 @@
+Tasks
+Q1. Understand OSI & TCP/IP Models
+Learn about the OSI and TCP/IP models, including their layers and purposes.
+Task: Write examples of how each layer applies to real-world scenarios (e.g., HTTP at the Application Layer, TCP at the Transport Layer).
 
+Sol: 
+1. OSI Model(7-layers)
+Leyers                  Realworld examples
+1.Applcation layer      Accesing websites by hhtp/https
+2.Presntation layer     data fomatting and encryption and compression 
+3.Session layer         two users ke bich session of communication maintain krna 
+4.transport layer       TCp(Realible data transfer) & UDP(fast data trasfer)
+5.Network layer         Sourse and destioonatin ip 
+6.Data Link layer       local internet(Wi-fi , Ethernet) frame deliver krna  
+7.physical layer        cables and radio signals , fibre optic signal
+
+2. TCP/IP Model — 4 Layers
+Leyers                      Examples
+Application layer           HTTP, HTTPS,DNS,SSH
+Transport layer             TCP,UDP 
+Internet layer              IPV4, IPV6
+network layer               Ethernet ,Wi-fi
+
+Q 2. Protocols and Ports for DevOps
+Study the most commonly used protocols (e.g., HTTP, HTTPS, FTP, SSH, DNS) and their port numbers.)
+Sol:
+Protocol       Default Post         use
+HTTP              TCP 80            Nomal web traffic 
+HTTPS             TCP 443           encrypted web trafic 
+DNS               TCP/UDP 53        domain name ko ip adress se resolve krna
+SSH               TCP 22            secure remote server login
+FTP               TCP 21            file trasfer control
+SFTP              TCP 22            ssh ke though secure file trasfer      
+DHCP              UDP 67/68         audomatically Ip configuartion assign krna
+SMTP              TCP 25            mail server to server transfer krna
+SMTP Submission   TCP 587           email submit krna 
+MYSQL             TCP 3306          database connection
+POSTGRESQL        TCP 5432          database connection
+k8s API           TCP 6443          k8s cluster API server
+Docker Demon API  TCP 2375/2376     Remote docker API/commonly TLS-enabled    
+Nodejs/Vita dev server TCP 3000/5173 Common development ports/configurable
+
+Q 3.Hands-On with Networking Commands
+Practice essential networking commands like:
+ping (check connectivity)
+traceroute / tracert (trace packet routes)
+netstat (network statistics)
+curl (make HTTP requests)
+dig / nslookup (DNS lookup)
+Task: Create a cheat sheet or short guide explaining the purpose and usage of each command.
+Sol:
+Command	         Main purpose	            
+ping             connectivity check(host racheble?)
+traceroute       route tarce(kaunsa hops responce kr rhe hai)
+netstat          connection and pots linsting 
+curl             HTTP/HTTPS requests(website responce)
+dig/nslookup     domain ka ip check in detailed.
