@@ -1,0 +1,10 @@
+    151 
+    117  check pass; user unknown
+     80  authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root
+     43  session opened for user news by (uid=0)
+     43  session opened for user cyrus by (uid=0)
+     43  session closed for user news
+     43  session closed for user cyrus
+     36  session opened for user test by (uid=509)
+     36  session closed for user test
+     23  connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005 
